@@ -1,1 +1,54 @@
 @CHARSET "UTF-8";
+
+body {
+	width: 800px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#quote {
+	margin-top: 100px;
+	text-align: center;
+}
+
+q {
+	color: white;
+	font-size: 2.3em;
+	background-color: #237080;
+	margin-bottom: 0px;
+}
+
+p {
+	padding: 5px 25px 5px 5px;
+	text-align: right;
+	margin-top: 0px;
+	color: white;
+	background: black;
+}
+
+#menu {
+	width: inherit;
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+}
+
+#menu li {
+	display: inline;
+	margin: 0px 5px 0px 0px;
+	background: #333;
+	color: white; 
+	list-style: none;
+	padding: 8px; 
+}
+
+#menu a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+#menu li:HOVER {
+	background: #237080 url("http://localhost:8080/projectG/static/images/hover.gif") left center no-repeat;
+	color: white;
+	padding-right: 8px;
+}

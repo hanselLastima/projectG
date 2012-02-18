@@ -3,18 +3,25 @@ package projectg
 class QuoteController {
 
 	def scaffold = true
+	def quoteService
 	
 	def home =  {
 		render "<h1> Read programmers do not eat quiche! </h1>"
 	}
 	
     def index = { 
-		redirect (action:home)
+		redirect (action:list)
 	}
 	
 	def random = {
-		def randomQuote = new Quote(author:"Larry Wall", content:"There is more than one method to our madness")
+		def randomQuote = quoteService.getRandomQuote()
 		
-		[author:randomQuote.author , content:randomQuote.content ]
+		[quote : randomQuote]
+	}
+	
+	def ajaxRandom = {
+		def randomQuote = quoteService.getRandomQuote()
+		
+		[quote : randomQuote]
 	}
 }

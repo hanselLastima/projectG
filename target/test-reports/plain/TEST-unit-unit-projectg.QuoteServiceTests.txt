@@ -1,5 +1,5 @@
-Testsuite: projectg.QuoteTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.785 sec
+Testsuite: projectg.QuoteServiceTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.09 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.785 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.693 sec
+Testcase: testSomething took 0.085 sec

@@ -1,9 +1,10 @@
 <html>
 
 <head>
-	<title> QOTD &raquo; <g:layoutTitle/> </title>
-	<link rel="stylesheet" href="<g:createLinkTo dir='css' file='snazzy.css'/>" />
-	<g:layoutHead />
+<title>QOTD &raquo; <g:layoutTitle /></title>
+<link rel="stylesheet"
+	href="<g:createLinkTo dir='css' file='snazzy.css'/>" />
+<g:layoutHead />
 </head>
 
 <body>

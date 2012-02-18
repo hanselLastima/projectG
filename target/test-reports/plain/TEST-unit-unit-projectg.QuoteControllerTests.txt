@@ -1,5 +1,5 @@
 Testsuite: projectg.QuoteControllerTests
-Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 5.597 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 4.206 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,9 +7,4 @@ Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 5.597 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 4.854 sec
-	Caused an ERROR
-No signature of method: projectg.QuoteControllerTests.success() is applicable for argument types: (java.lang.String) values: [Implement me]
-groovy.lang.MissingMethodException: No signature of method: projectg.QuoteControllerTests.success() is applicable for argument types: (java.lang.String) values: [Implement me]
-	at projectg.QuoteControllerTests.testSomething(QuoteControllerTests.groovy:15)
-
+Testcase: testSomething took 3.759 sec

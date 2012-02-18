@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="hiro-kun" name="projectg.QuoteTests" tests="1" time="0.917" timestamp="2012-02-18T11:20:50">
+<testsuite errors="0" failures="0" hostname="hiro-kun" name="projectg.QuoteTests" tests="1" time="0.785" timestamp="2012-02-18T15:12:30">
   <properties />
-  <testcase classname="projectg.QuoteTests" name="testSomething" time="0.907">
-    <error message="No signature of method: projectg.QuoteTests.success() is applicable for argument types: (java.lang.String) values: [Implement me]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: projectg.QuoteTests.success() is applicable for argument types: (java.lang.String) values: [Implement me]
-	at projectg.QuoteTests.testSomething(QuoteTests.groovy:15)
-</error>
-  </testcase>
+  <testcase classname="projectg.QuoteTests" name="testSomething" time="0.693" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--

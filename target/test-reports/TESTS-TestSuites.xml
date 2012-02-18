@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="1" failures="0" hostname="hiro-kun" id="0" name="QuoteControllerTests" package="projectg" tests="1" time="5.597" timestamp="2012-02-18T11:20:45">
+  <testsuite errors="0" failures="0" hostname="hiro-kun" id="0" name="QuoteServiceIntegrationTests" package="projectg" tests="1" time="0.377" timestamp="2012-02-18T15:12:52">
       <properties />
 
-      <testcase classname="projectg.QuoteControllerTests" name="testSomething" time="4.908">
-          <error message="No signature of method: projectg.QuoteControllerTests.success() is applicable for argument types: (java.lang.String) values: [Implement me]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: projectg.QuoteControllerTests.success() is applicable for argument types: (java.lang.String) values: [Implement me]
-	at projectg.QuoteControllerTests.testSomething(QuoteControllerTests.groovy:15)
-</error>
+      <testcase classname="projectg.QuoteServiceIntegrationTests" name="testStaticQuote" time="0.374" />
 
-      </testcase>
+      <system-out><![CDATA[--Output from testStaticQuote--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testStaticQuote--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="hiro-kun" id="1" name="QuoteControllerTests" package="projectg" tests="1" time="4.206" timestamp="2012-02-18T15:12:26">
+      <properties />
+
+      <testcase classname="projectg.QuoteControllerTests" name="testSomething" time="3.758" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -17,15 +24,22 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="1" failures="0" hostname="hiro-kun" id="1" name="QuoteTests" package="projectg" tests="1" time="0.917" timestamp="2012-02-18T11:20:50">
+  <testsuite errors="0" failures="0" hostname="hiro-kun" id="2" name="QuoteServiceTests" package="projectg" tests="1" time="0.09" timestamp="2012-02-18T15:12:31">
       <properties />
 
-      <testcase classname="projectg.QuoteTests" name="testSomething" time="0.907">
-          <error message="No signature of method: projectg.QuoteTests.success() is applicable for argument types: (java.lang.String) values: [Implement me]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: projectg.QuoteTests.success() is applicable for argument types: (java.lang.String) values: [Implement me]
-	at projectg.QuoteTests.testSomething(QuoteTests.groovy:15)
-</error>
+      <testcase classname="projectg.QuoteServiceTests" name="testSomething" time="0.085" />
 
-      </testcase>
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="hiro-kun" id="3" name="QuoteTests" package="projectg" tests="1" time="0.785" timestamp="2012-02-18T15:12:30">
+      <properties />
+
+      <testcase classname="projectg.QuoteTests" name="testSomething" time="0.693" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
