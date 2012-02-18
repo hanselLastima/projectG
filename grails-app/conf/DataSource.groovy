@@ -13,14 +13,19 @@ hibernate {
 environments {
     development {
         dataSource {
-            dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
-            url = "jdbc:h2:mem:devDb;MVCC=TRUE"
+            dbCreate = "update"
+			pooled = true
+			driverClassName = "com.mysql.jdbc.Driver"
+			username = "root"
+			password = "changethis"
+			url = "jdbc:mysql://localhost:3306/qotd"
+			dialect = 'org.hibernate.dialect.MySQL5InnoDBDialect'
         }
     }
     test {
         dataSource {
             dbCreate = "update"
-            url = "jdbc:h2:mem:testDb;MVCC=TRUE"
+            url = "jdbc:h2:mem:testDb"
         }
     }
     production {
