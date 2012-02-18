@@ -1,5 +1,5 @@
 Testsuite: projectg.QuoteTests
-Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.787 sec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.917 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,9 +7,9 @@ Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.787 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.777 sec
-	FAILED
-java.lang.AssertionError: Implement me
-junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
+Testcase: testSomething took 0.905 sec
+	Caused an ERROR
+No signature of method: projectg.QuoteTests.success() is applicable for argument types: (java.lang.String) values: [Implement me]
+groovy.lang.MissingMethodException: No signature of method: projectg.QuoteTests.success() is applicable for argument types: (java.lang.String) values: [Implement me]
 	at projectg.QuoteTests.testSomething(QuoteTests.groovy:15)
 

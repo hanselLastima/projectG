@@ -2,8 +2,12 @@ package projectg
 
 class Quote {
 
-	def scaffold = true
-
+	String author
+	String content
+	Date createDate = new Date()
+	
     static constraints = {
+    	author(blank:false)
+		content(maxSize:1000, blank:false)	
     }
 }
